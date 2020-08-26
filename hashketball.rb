@@ -189,6 +189,5 @@ def find_player_with_largest_shoes
 end
 
 def big_shoe_rebounds
-  player_with_largest_shoe_size = find_player_with_largest_shoes
-  player_with_largest_shoe_size[:rebounds]
+  find_player_with_largest_shoes[:rebounds]
 end
